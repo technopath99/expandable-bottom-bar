@@ -190,7 +190,7 @@ class _BottomExpandableAppBarState extends State<BottomExpandableAppBar> {
                 ? _BottomAppBarClipper(
                     geometry: Scaffold.geometryOf(context),
                     shape: widget.shape,
-                    notchMargin: 10,
+                    notchMargin: 7.5,
                     buttonOffset: widget.bottomOffset,
                   )
                 : null,
